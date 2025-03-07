@@ -550,6 +550,8 @@ H5P.DocumentationToolJGU = (function ($, NavigationMenu, JoubelUI, EventDispatch
   /**
    * Sets the output for all document export pages
    * @param {Array} inputs Array of input strings
+   * @param {Array} pageInstances Alle Seiteninstanzen
+   * @param {Array} newGoals Ziele mit Bewertungen
    */
   DocumentationToolJGU.prototype.setDocumentExportOutputs  = function (pageInstances, inputs) {
     pageInstances.forEach(function (page) {
@@ -581,9 +583,29 @@ H5P.DocumentationToolJGU = (function ($, NavigationMenu, JoubelUI, EventDispatch
       }
     });
 
+    // Prüfe, ob das Vergleichsfeedback aktiviert ist
+    var referenceFeedbackEnabled = false;
+    var referenceFeedbackLabel = '';
+
+    // Suche nach der GoalsAssessmentPage, um zu prüfen, ob Vergleichsfeedback aktiviert ist
+    pageInstances.forEach(function (page) {
+      if (page.libraryInfo.machineName === 'H5P.GoalsAssessmentPageJGU') {
+        if (page.params && page.params.allowsReferenceFeedback) {
+          referenceFeedbackEnabled = true;
+          referenceFeedbackLabel = page.params.l10n.referenceFeedback || 'Reference feedback:';
+        }
+      }
+    });
+
+    // Aktualisiere die Ziele auf der ExportPage und übergebe die Vergleichsfeedback-Einstellungen
     pageInstances.forEach(function (page) {
       if (page.libraryInfo.machineName === 'H5P.DocumentExportPageJGU') {
-        page.updateExportableGoals({inputArray: newGoals, title: assessmentPageTitle});
+        page.updateExportableGoals({
+          inputArray: newGoals, 
+          title: assessmentPageTitle,
+          referenceFeedbackEnabled: referenceFeedbackEnabled,
+          referenceFeedbackLabel: referenceFeedbackLabel
+        });
       }
     });
   };
