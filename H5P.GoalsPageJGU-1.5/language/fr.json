@@ -1,0 +1,96 @@
+{
+  "semantics": [
+    {
+      "label": "Description",
+      "description": "Description des objectifs de la page.",
+      "default": "Entrez les objectifs sur lesquels vous avez choisis de travailler."
+    },
+    {
+      "label": "Predefined goals",
+      "entity": "goal",
+      "description": "Optional predefined goals that the user can choose to use or delete.",
+      "field": {
+        "label": "Predefined goal",
+        "fields": [
+          {
+            "label": "Goal text"
+          },
+          {
+            "label": "Relative score weight",
+            "description": "Each goal will be weighted with its relative score weight per total score weight of all goals."
+          }
+        ]
+      }
+    },
+    {
+      "label": "Définir le texte du lien vers un objectif",
+      "description": "Texte qui apparaît sur le bouton pour créer un nouvel objectif.",
+      "default": "Créer un nouvel objectif"
+    },
+    {
+      "label": "Intitulé pour un objectif créé par l'utilisateur",
+      "description": "Texte qui sera utilisé comme intitulé d'un objectif créé par l'utilisateur.",
+      "default": "Objectif créé par l'utilisateur"
+    },
+    {
+      "label": "Définissez le texte initial de l'objectif",
+      "description": "Texte qui apparaît lors de la création d'un nouvel objectif.",
+      "default": "Ecrivez ici..."
+    },
+    {
+      "label": "Texte qui indique combien d'objectifs ont été ajoutés",
+      "default": "objectifs ajoutés :",
+      "description": "Ce texte va afficher le nombre d'objectifs créés, par exemple : 'objectifs ajoutés : 5' où 'Objectifs ajoutés :' est ce texte."
+    },
+    {
+      "label": "Texte pour le bouton \"Préciser l'objectif\"",
+      "default": "Préciser"
+    },
+    {
+      "label": "Texte pour le bouton \"Supprimer l'objectif\"",
+      "default": "Supprimer"
+    },
+    {
+      "label": "Titre pour le texte d'aide",
+      "description": "Titre pour afficher à l'utilisateur une information complémentaire utile.",
+      "default": "En savoir plus"
+    },
+    {
+      "label": "Complétez l'information complémentaire utile",
+      "description": "Ici vous pouvez saisir l'information complémentaire utile pour l'utilisateur."
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Weight",
+          "default": "Weight"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    },
+    {
+      "label": "Localisez la confirmation pour supprimer un objectif",
+      "fields": [
+        {
+          "label": "En-tête",
+          "default": "Confirmer la suppression"
+        },
+        {
+          "label": "Message",
+          "default": "Etes-vous sûr de vouloir supprimer cet objectif ?"
+        },
+        {
+          "label": "Titre du bouton d'annulation",
+          "default": "Annuler"
+        },
+        {
+          "label": "Titre du bouton de confirmation",
+          "default": "Confirmer"
+        }
+      ]
+    }
+  ]
+}

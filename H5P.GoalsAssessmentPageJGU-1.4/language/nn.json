@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Skildring av sida med måloppnåing",
+      "description": "Skildre aktivitetane brukaren skal gjennomføre på sida for måloppnåing.",
+      "default": "Vurder kva grad av oppnåing du har hatt på måla du valde på målsida."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Ingen mål vald tekst",
+      "description": "Tekst som vert vist om ingen mål har blitt satt opp på målsida.",
+      "default": "Du har ikkje valgt mål enno."
+    },
+    {
+      "label": "Tekst for \"Hjelpetekst\"-knapp",
+      "description": "Tekst som vil visast på \"HjelpeTekst\"-knapp som vil visa tilleggs-infomasjon til brukaren.",
+      "default": "Meir informasjon"
+    },
+    {
+      "label": "Fyll inn tilleggsinformasjon om utføring til brukaren",
+      "description": "Her kan du fylla inn ekstra nyttig informasjon om korleis brukaren skal nytte denne sida."
+    },
+    {
+      "label": "Overskrift for vurderingsblokk",
+      "default": "Moglege vurderingar:"
+    },
+    {
+      "label": "Overskrift for mål",
+      "default": "Mål"
+    },
+    {
+      "label": "Overskrift for vurdering",
+      "default": "Vurdering"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

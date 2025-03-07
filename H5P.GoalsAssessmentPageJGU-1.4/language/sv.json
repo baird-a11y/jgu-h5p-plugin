@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Beskrivning",
+      "description": "Beskrivning av sidan för målbedömning.",
+      "default": "Bedöm målen som du har valt på målsidan."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Text för inga mål",
+      "description": "Feedback-text när inga mål har skapats.",
+      "default": "Du har inte valt några mål ännu."
+    },
+    {
+      "label": "Etikett för hjälptext",
+      "description": "Etikett för hjälpfull information till användaren.",
+      "default": "Mer information"
+    },
+    {
+      "label": "Fyll i hjälpinformation",
+      "description": "Här kan du fylla i hjälpinformation till användaren."
+    },
+    {
+      "label": "Rubrik",
+      "default": "Möjliga nivåer för uppfyllelse:"
+    },
+    {
+      "label": "Rubrik för mål",
+      "default": "Mål"
+    },
+    {
+      "label": "Rubrik för bedömning",
+      "default": "Bedömning"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

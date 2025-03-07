@@ -1,0 +1,152 @@
+{
+    "taskDescription": "Documentation Tool (JGU)",
+    "pagesList": [
+      {
+        "params": {
+          "elementList": [
+            {
+              "params": {
+                "text": "<p>This tool is designed to document changes in the H5P content type 'Goals'. It is intended to be used by authors and users to document the goals they have set and the extent to which they have achieved them.</p><p>It is possible to set predefined goals and to weight them. The goals can be rated on a scale of 1 to 5 and optional feedback can be provided. The tool also provides an overview of the weighted average score of the goals.</p><p>After the goals have been set and rated, the user can export the documentation as a PDF file.</p>"
+              },
+              "library": "H5P.Text 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text"
+              },
+              "subContentId": "fe4bcfab-7ec3-468c-a09c-a7a2d23bc2f2"
+            }
+          ],
+          "helpTextLabel": "More information",
+          "helpText": ""
+        },
+        "library": "H5P.StandardPage 1.5",
+        "metadata": {
+          "contentType": "Standard page",
+          "license": "U",
+          "title": "Changes"
+        },
+        "subContentId": "4ad06395-77e8-42d2-ae27-eb0e9fc6ed3f"
+      },
+      {
+        "params": {
+          "elementList": [
+            {
+              "params": {
+                "text": "<p>Changes include:</p><ul><li>Integration of the existing source code for setting<br>predefined targets</li><li>Implementation of weightings for each goal incl. change<br>possibility by authors and users</li><li>Extension of the evaluation to 5 levels incl. visual adjustment<br>adaptation</li><li>Change of the previous textual evaluation description to<br>a numerical one</li><li>Implementation of the option to provide optional feedback<br>feedback on an assessment in the target achievement overview<br>overview</li><li>Implementation of the display of the weighted average<br>score in the target achievement overview, the preview and in the<br>in the file export</li><li>Change the order of the goals in the preview and in the file export<br>file export</li><li>Necessary H5P-side adaptation of the editor structure, the translation files, etc.</li><li>Updating the German translation to support the new<br>the new functions</li></ul>"
+              },
+              "library": "H5P.Text 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Untitled Text"
+              },
+              "subContentId": "fe4bcfab-7ec3-468c-a09c-a7a2d23bc2f2"
+            }
+          ],
+          "helpTextLabel": "More information",
+          "helpText": ""
+        },
+        "library": "H5P.StandardPage 1.5",
+        "metadata": {
+          "contentType": "Standard page",
+          "license": "U",
+          "title": "Changes"
+        },
+        "subContentId": ""
+      },
+      {
+        "params": {
+          "description": "Insert the goals that you have chosen to work with.",
+          "defineGoalText": "Create a new goal",
+          "definedGoalLabel": "User defined goal",
+          "defineGoalPlaceholder": "Write here...",
+          "goalsAddedText": "Goals added:",
+          "specifyGoalText": "Specification",
+          "removeGoalText": "Remove Goal",
+          "helpTextLabel": "More information",
+          "l10n": {
+            "weight": "Weight"
+          },
+          "goalDeletionConfirmation": {
+            "header": "Confirm deletion",
+            "message": "Are you sure you want to delete this goal?",
+            "cancelLabel": "Cancel",
+            "confirmLabel": "Confirm"
+          },
+          "predefinedGoals": [
+            {
+              "weight": 100,
+              "text": "Check changes"
+            },
+            {
+              "weight": 100,
+              "text": "Get more offers"
+            }
+          ],
+          "helpText": ""
+        },
+        "library": "H5P.GoalsPageJGU 1.5",
+        "metadata": {
+          "contentType": "Goals page (JGU)",
+          "license": "U",
+          "title": "Goals"
+        },
+        "subContentId": "81c78221-c1e7-4eb2-a85a-f7d75a5cee8f"
+      },
+      {
+        "params": {
+          "description": "Rate the goals that you have chosen in the goals page.",
+          "veryLowRating": "1.0",
+          "lowRating": "2.0",
+          "midRating": "3.0",
+          "highRating": "4.0",
+          "veryHighRating": "5.0",
+          "allowsComments": true,
+          "noGoalsText": "You have not chosen any goals yet.",
+          "helpTextLabel": "More information",
+          "legendHeader": "Possible ratings:",
+          "goalHeader": "Goals",
+          "ratingHeader": "Rating",
+          "commentsHeader": "Comments",
+          "l10n": {
+            "averageScore": "Average score: @score"
+          },
+          "helpText": ""
+        },
+        "library": "H5P.GoalsAssessmentPageJGU 1.4",
+        "metadata": {
+          "contentType": "Goals assessment page (JGU)",
+          "license": "U",
+          "title": "Goals assessment"
+        },
+        "subContentId": "9f06c5e0-b4d3-428e-8b52-3d6b54faf376"
+      },
+      {
+        "params": {
+          "description": "On this page you can choose to export your text, goals and goals assessments.",
+          "createDocumentLabel": "Create document",
+          "submitTextLabel": "Submit",
+          "submitSuccessTextLabel": "Your report was submitted successfully!",
+          "selectAllTextLabel": "Select",
+          "exportTextLabel": "Export",
+          "helpTextLabel": "More information",
+          "requiresInputErrorMessage": "The following pages contain required fields that need to be filled in order to review or submit this document: @pages",
+          "helpText": ""
+        },
+        "library": "H5P.DocumentExportPageJGU 1.5",
+        "metadata": {
+          "contentType": "Document Export Page (JGU)",
+          "license": "U",
+          "title": "Document Export"
+        },
+        "subContentId": "349b4f46-5cf9-49f1-86d4-cc1f5f170c55"
+      }
+    ],
+    "i10n": {
+      "previousLabel": "Previous documentation step",
+      "nextLabel": "Next documentation step",
+      "closeLabel": "Close"
+    }
+  }
+  

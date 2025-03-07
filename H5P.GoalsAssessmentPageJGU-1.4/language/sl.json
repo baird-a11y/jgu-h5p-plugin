@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Opis",
+      "description": "Navodilo udeležencem za delo na strani za vrednotenje ciljev.",
+      "default": "Ovrednoti dodane cilje."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Ni ciljev",
+      "description": "Besedilo za povratne informacije udeležencu, ko cilji nisi bili ustvarjeni.",
+      "default": "Ni izbranih ciljev."
+    },
+    {
+      "label": "Naslov za dodatne informacije",
+      "description": "Besedilo se prikaže kot povezava, ki vodi do dodatnih informacij za udeležence.",
+      "default": "Več informacij"
+    },
+    {
+      "label": "Vsebina dodatnih informacij",
+      "description": "Besedilo se udeležencem prikaže v pogovornem oknu."
+    },
+    {
+      "label": "Naslov legende",
+      "default": "Možne ocene:"
+    },
+    {
+      "label": "Naslov stolpca s cilji",
+      "default": "Cilj"
+    },
+    {
+      "label": "Naslov stolpca z ocenami",
+      "default": "Ocena"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

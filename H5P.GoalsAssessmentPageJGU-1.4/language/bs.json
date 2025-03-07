@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Opis",
+      "description": "Opis ciljeva na stranici zadataka.",
+      "default": "Ocijenite ciljeve koje ste odabrali na stranici ciljeva."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Tekst za nema ciljeva",
+      "description": "Feedback tekst kada nisu postavljeni ciljevi.",
+      "default": "Niste odabrali još nikakve ciljeve."
+    },
+    {
+      "label": "Tekst za pomoć",
+      "description": "Prikazuje dodatnu pomoć korisniku.",
+      "default": "Više informacija"
+    },
+    {
+      "label": "Dopuni sa dodatnim informacijama.",
+      "description": "Ovdje možete dodati informacije koje će korisniku biti od pomoći."
+    },
+    {
+      "label": "Legend header",
+      "default": "Possible ratings:"
+    },
+    {
+      "label": "Goal header",
+      "default": "Goals"
+    },
+    {
+      "label": "Rating header",
+      "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

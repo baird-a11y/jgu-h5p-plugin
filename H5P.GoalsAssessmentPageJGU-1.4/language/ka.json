@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "აღწერა",
+      "description": "მიზნების შეფასების გვერდის აღწერა.",
+      "default": "შეაფასეთ თქვენ მიერ არჩეული მიზნები მიზნების გვერდზე."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "ტექსტი, როცა მიზნები არ არის",
+      "description": "გამოხმაურების ტექსტი, როდესაც მიზნები არ არის შექმნილი.",
+      "default": "ჯერ არცერთი მიზანი არ შეგირჩევიათ."
+    },
+    {
+      "label": "წარწერა ცნობარისთვის",
+      "description": "მომხმარებლისთვის დამატებითი სასარგებლო ინფორმაციის ჩვენებისთვის.",
+      "default": "დამატებითი ინფორმაცია"
+    },
+    {
+      "label": "შეავსეთ დამატებითი საცნობარო ინფორმაცია",
+      "description": "აქ შეგიძლიათ შეიტანოთ დამატებითი დამხმარე ინფორმაცია მომხმარებლისთვის."
+    },
+    {
+      "label": "ლეგენდის სათაური",
+      "default": "შესაძლო შეფასებები:"
+    },
+    {
+      "label": "მიზნის სათაური",
+      "default": "მიზნები"
+    },
+    {
+      "label": "შეფასების სათაური",
+      "default": "შეფასება"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

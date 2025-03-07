@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Deskribapena",
+      "description": "Helburuen ebaluazio orriaren deskripzioa.",
+      "default": "Kalifikatu helburuen orrian aukeratu dituzun helburuakR."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Helbururik ez testua",
+      "description": "Helbururik ez dagoenerako feedbacka.",
+      "default": "Oraindik ez duzu helbururik aukeratu."
+    },
+    {
+      "label": "Laguntza testuaren etiketa",
+      "description": "Erabiltzailearentzako informazio gehigarria bistaratzeko etiketa.",
+      "default": "Informazio gehiago"
+    },
+    {
+      "label": "Osatu laguntzako informazio gehigarria",
+      "description": "Bertan zeuk osa dezakezu erabiltzailearentzat lagungarria den informazioa."
+    },
+    {
+      "label": "Legendaren goiburua",
+      "default": "Puntuazio posibleak:"
+    },
+    {
+      "label": "Helburuaren goiburua",
+      "default": "Helburuak"
+    },
+    {
+      "label": "Puntuazioen goiburua",
+      "default": "Puntuazioa"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

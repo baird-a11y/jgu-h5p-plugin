@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Beschreibung",
+      "description": "Beschreibung für die Zielbewertungsseite",
+      "default": "Die Ziele auf der Zielseite bewerten."
+    },
+    {
+      "label": "Punkte bei sehr geringer Bewertung",
+      "description": "Punkte für die schlechteste Bewertung.",
+      "default": "1.0"
+    },
+    {
+      "label": "Punkte bei geringer Bewertung",
+      "description": "Punkte für die zweitschlechteste Bewertung.",
+      "default": "2.0"
+    },
+    {
+      "label": "Punkte bei mittlerer Bewertung",
+      "description": "Punkte für mittlere Bewertung.",
+      "default": "3.0"
+    },
+    {
+      "label": "Punkte bei hoher Bewertung",
+      "description": "Punkte für hohe Wertung.",
+      "default": "4.0"
+    },
+    {
+      "label": "Punkte bei sehr hoher Bewertung",
+      "description": "Punkte für sehr hohe Bewertung.",
+      "default": "5.0"
+    },
+    {
+      "label": "Erlaube, zu jedem Ziel Kommentare hinzuzufügen"
+    },
+    {
+      "label": "Text für keine Ziele",
+      "description": "Feedback Text, wenn keine Ziele erstellt wurden",
+      "default": "Es wurden noch keine Ziele ausgewählt."
+    },
+    {
+      "label": "Label für den Hilfstext",
+      "description": "Hinweistext zum Anzeigen zusätzlicher hilfreicher Informationen für den Benutzer.",
+      "default": "Weitere Informationen"
+    },
+    {
+      "label": "Weitere hilfreiche Informationen einfügen",
+      "description": "Hier können zusätzliche hilfreiche Informationen für den Benutzer eingegeben werden."
+    },
+    {
+      "label": "Überschrift der Legende",
+      "default": "Mögliche Bewertungen:"
+    },
+    {
+      "label": "Überschrift der Ziele",
+      "default": "Ziele"
+    },
+    {
+      "label": "Überschrift der Bewertung",
+      "default": "Bewertung"
+    },
+    {
+      "label": "Überschrift der Kommentare",
+      "default": "Kommentare"
+    },
+    {
+      "label": "Bedienoberfläche",
+      "fields": [
+        {
+          "label": "Anzeige der durchschnittlichen Punktzahl",
+          "description": "@score ist ein Platzhalter und wird durch den jeweiligen Wert ersetzt.",
+          "default": "Durchschnittliche Punktzahl: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

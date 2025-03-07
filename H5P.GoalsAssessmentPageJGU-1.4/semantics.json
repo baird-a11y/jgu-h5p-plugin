@@ -1,0 +1,164 @@
+[
+  {
+    "name": "description",
+    "label": "Description",
+    "importance": "medium",
+    "type": "text",
+    "widget": "html",
+    "description": "Description of the goals assessment page.",
+    "default": "Rate the goals that you have chosen in the goals page.",
+    "enterMode": "p",
+    "tags": [
+      "strong",
+      "em",
+      "u",
+      "a",
+      "ul",
+      "ol",
+      "h2",
+      "h3",
+      "hr",
+      "pre",
+      "code"
+    ],
+    "optional": true
+  },
+  {
+    "name": "veryLowRating",
+    "label": "Very low rating score",
+    "importance": "low",
+    "type": "number",
+    "description": "Score for worst rating.",
+    "default": "1.0"
+  },
+  {
+    "name": "lowRating",
+    "label": "Low rating score",
+    "importance": "low",
+    "type": "text",
+    "description": "Score for second-worst rating.",
+    "default": "2.0"
+  },
+  {
+    "name": "midRating",
+    "label": "Medium rating score",
+    "importance": "low",
+    "type": "text",
+    "description": "Score for middle rating.",
+    "default": "3.0"
+  },
+  {
+    "name": "highRating",
+    "label": "High rating score",
+    "importance": "low",
+    "type": "text",
+    "description": "Score for good rating.",
+    "default": "4.0"
+  },
+  {
+    "name": "veryHighRating",
+    "label": "Very high rating score",
+    "importance": "low",
+    "type": "text",
+    "description": "Score for great rating.",
+    "default": "5.0"
+  },
+  {
+    "name": "allowsComments",
+    "type": "boolean",
+    "label": "Allow to add comments to each goal",
+    "default": true,
+    "optional": true
+  },
+  {
+    "name": "noGoalsText",
+    "label": "No goals text",
+    "importance": "low",
+    "type": "text",
+    "description": "Feedback text when no goals have been created.",
+    "default": "You have not chosen any goals yet."
+  },
+  {
+    "name": "helpTextLabel",
+    "label": "Label for help text",
+    "importance": "low",
+    "type": "text",
+    "description": "Label for showing additional helpful information to the user.",
+    "default": "More information"
+  },
+  {
+    "name": "helpText",
+    "label": "Fill in additional help information",
+    "importance": "low",
+    "type": "text",
+    "widget": "html",
+    "description": "Here you can fill in additional helpful information for the user.",
+    "enterMode": "p",
+    "optional": true,
+    "tags": [
+      "strong",
+      "em",
+      "u",
+      "a",
+      "ul",
+      "ol",
+      "h2",
+      "h3",
+      "hr",
+      "pre",
+      "code"
+    ]
+  },
+  {
+    "name": "legendHeader",
+    "label": "Legend header",
+    "importance": "low",
+    "type": "text",
+    "default": "Possible ratings:"
+  },
+  {
+    "name": "goalHeader",
+    "label": "Goal header",
+    "importance": "low",
+    "type": "text",
+    "default": "Goals"
+  },
+  {
+    "name": "ratingHeader",
+    "label": "Rating header",
+    "importance": "low",
+    "type": "text",
+    "default": "Rating"
+  },
+  {
+    "name": "commentsHeader",
+    "label": "Comments header",
+    "importance": "low",
+    "type": "text",
+    "default": "Comments"
+  },
+  {
+    "name": "l10n",
+    "type": "group",
+    "common": true,
+    "importance": "low",
+    "label": "Localization",
+    "fields": [
+      {
+        "name": "averageScore",
+        "type": "text",
+        "label": "Average score display",
+        "description": "@score is a placeholder and will be replaced with the respective value.",
+        "optional": false,
+        "default": "Average score: @score"
+      },
+      {
+        "name": "dummy",
+        "type": "text",
+        "label": "Dummy",
+        "optional": true,
+        "widget": "none"
+      }
+    ]
+  }
+]

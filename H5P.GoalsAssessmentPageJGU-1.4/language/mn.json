@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Тодорхойлолт",
+      "description": "Зорилгын үнэлгээний хуудасны тайлбар.",
+      "default": "Зорилгуудын хуудсан дээр сонгосон зорилгоо үнэлнэ үү."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Зорилго текст байхгүй",
+      "description": "Зорилго үүсгээгүй үед санал хүсэлтийн текст.",
+      "default": "Та хараахан зорилго сонгоогүй байна."
+    },
+    {
+      "label": "Тусламжийн текстийн шошго",
+      "description": "Хэрэглэгчдэд хэрэгтэй нэмэлт мэдээллийг харуулах шошго.",
+      "default": "Нэмэлт мэдээлэл"
+    },
+    {
+      "label": "Тусламжийн нэмэлт мэдээллийг бөглөнө үү",
+      "description": "Энд та хэрэглэгчдэд хэрэгтэй нэмэлт мэдээллийг бөглөж болно."
+    },
+    {
+      "label": "Домог толгой",
+      "default": "Боломжит үнэлгээ:"
+    },
+    {
+      "label": "Зорилго толгой",
+      "default": "Зорилго"
+    },
+    {
+      "label": "Үнэлгээний гарчиг",
+      "default": "Үнэлгээ"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

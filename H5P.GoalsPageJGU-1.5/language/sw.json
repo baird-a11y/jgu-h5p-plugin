@@ -1,0 +1,96 @@
+{
+  "semantics": [
+    {
+      "label": "Maelezo",
+      "description": "Maelezo ya ukurasa wa malengo.",
+      "default": "Weka malengo ambayo umechagua kufanya kazi nayo."
+    },
+    {
+      "label": "Predefined goals",
+      "entity": "goal",
+      "description": "Optional predefined goals that the user can choose to use or delete.",
+      "field": {
+        "label": "Predefined goal",
+        "fields": [
+          {
+            "label": "Goal text"
+          },
+          {
+            "label": "Relative score weight",
+            "description": "Each goal will be weighted with its relative score weight per total score weight of all goals."
+          }
+        ]
+      }
+    },
+    {
+      "label": "Eleza maandishi ya kiungo cha lengo",
+      "description": "Maandishi ambayo yataonyeshwa kwenye kitufe cha kuunda lengo jipya.",
+      "default": "Unda lengo jipya"
+    },
+    {
+      "label": "Lebo ya lengo lililofafanuliwa na mtumiaji",
+      "description": "Maandishi ambayo yataonyeshwa kama lebo kwenye lengo lililoundwa na mtumiaji.",
+      "default": "Lengo lililofafanuliwa na mtumiaji"
+    },
+    {
+      "label": "Eleza mshika nafasi wa lengo",
+      "description": "Maandishi ambayo itaonyeshwa kama mshika nafasi wakati wa kuunda lengo jipya.",
+      "default": "Andika hapa..."
+    },
+    {
+      "label": "Maandishi yanayoonyesha ni malengo mangapi yameongezwa",
+      "default": "Malengo yameongezwa:",
+      "description": "Maandishi haya yatafuata baada ya kiasi cha malengo ambayo yameundwa kwa sasa, kwa mfano: Malengo yaliyoongezwa: 5' ambapo ‘Malengo yaliyoongezwa’ ni maandishi haya."
+    },
+    {
+      "label": "Maandishi kwa kitufe cha Taja lengo",
+      "default": "Uainishaji"
+    },
+    {
+      "label": "Maandishi ya kitufe cha Ondoa lengo",
+      "default": "Ondoa"
+    },
+    {
+      "label": "Lebo ya maandishi ya manufaa",
+      "description": "Lebo ya kuonyesha maelezo ya ziada ya manufaa kwa mtumiaji.",
+      "default": "Maelezo zaidi"
+    },
+    {
+      "label": "Jaza maelezo ya ziada ya manufaa",
+      "description": "Hapa unaweza kujaza maelezo ya ziada kwa manufaa ya mtumiaji."
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Weight",
+          "default": "Weight"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    },
+    {
+      "label": "Janibisha uthibitishaji wa kufuta lengo",
+      "fields": [
+        {
+          "label": "Kichwa",
+          "default": "Thibitisha ufutaji"
+        },
+        {
+          "label": "Ujumbe",
+          "default": "Una uhakika unataka kufuta lengo hili?"
+        },
+        {
+          "label": "Ghairi lebo ya kitufe",
+          "default": "Ghairi"
+        },
+        {
+          "label": "Lebo ya kitufe cha kuthibitisha",
+          "default": "Thibitisha"
+        }
+      ]
+    }
+  ]
+}

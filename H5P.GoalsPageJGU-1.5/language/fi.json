@@ -1,0 +1,96 @@
+{
+  "semantics": [
+    {
+      "label": "Kuvaus",
+      "description": "Kuvaus tai ohje sivulle.",
+      "default": "Lisää tavoitteet, jotka olet päättänyt saavuttaa."
+    },
+    {
+      "label": "Predefined goals",
+      "entity": "goal",
+      "description": "Optional predefined goals that the user can choose to use or delete.",
+      "field": {
+        "label": "Predefined goal",
+        "fields": [
+          {
+            "label": "Goal text"
+          },
+          {
+            "label": "Relative score weight",
+            "description": "Each goal will be weighted with its relative score weight per total score weight of all goals."
+          }
+        ]
+      }
+    },
+    {
+      "label": "Painikkeen Luo tavoite teksti",
+      "description": "Teksti näytetään painikkeessa, jolla luodaan uusi tavoite.",
+      "default": "Luo tavoite"
+    },
+    {
+      "label": "Teksti käyttäjän luomalle tavoitteelle",
+      "description": "Käyttäjän luoman tavoitteen teksti.",
+      "default": "Käyttäjän luoma tavoite"
+    },
+    {
+      "label": "Uuden tavoitteen oletusteksti",
+      "description": "Oletusteksti, joka näkyy kun luodaan uusi tavoite.",
+      "default": "Kirjoita tähän..."
+    },
+    {
+      "label": "Tavoitteiden lukumäärää ilmaiseva teksti",
+      "default": "Tavoitteita:",
+      "description": "Tekstin jälkeen näkyy luotujen tavoitteiden määrä. Esimerkiksi: Tavoitteita: 5."
+    },
+    {
+      "label": "Teksti \"Määrittele tavoite\"-painikkeelle",
+      "default": "Määrittele"
+    },
+    {
+      "label": "Teksti \"Poista tavoite\"-painikkeelle",
+      "default": "Poista"
+    },
+    {
+      "label": "Teksti osoittamaan lisätietoa",
+      "description": "Lisätietoa ilmaiseva teksti käyttäjälle.",
+      "default": "Lisää tietoa"
+    },
+    {
+      "label": "Lisätietoteksti",
+      "description": "Tähän voit täyttää tekstiä lisätietona käyttäjälle."
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Weight",
+          "default": "Weight"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    },
+    {
+      "label": "Tavoitteen poistamisen varmistusruudun tekstit",
+      "fields": [
+        {
+          "label": "Otsikko",
+          "default": "Varmista poisto"
+        },
+        {
+          "label": "Viesti",
+          "default": "Oletko varma, että haluat poistaa tämän tavoitteen?"
+        },
+        {
+          "label": "Painikkeen Peruuta teksti",
+          "default": "Peruuta"
+        },
+        {
+          "label": "Painikkeen Kyllä teksti",
+          "default": "Kyllä"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Descrição",
+      "description": "Descrição da página de avaliação de objetivos.",
+      "default": "Avalie os objetivos que você escolheu na página de objetivos."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Texto para nenhum objetivo",
+      "description": "Texto de feedback para quando nenhum objetivo tiver sido criado.",
+      "default": "Você ainda não escolheu nenhum objetivo."
+    },
+    {
+      "label": "Texto do rótulo de ajuda",
+      "description": "Rótulo para mostrar informações adicionais úteis ao usuário.",
+      "default": "Mais informação"
+    },
+    {
+      "label": "Preencha as informações adicionais de ajuda",
+      "description": "Aqui você pode inserir informações adicionais úteis para o usuário."
+    },
+    {
+      "label": "Cabeçalho da legenda",
+      "default": "Possíveis avaliações:"
+    },
+    {
+      "label": "Cabeçalho do objetivo",
+      "default": "Objetivos"
+    },
+    {
+      "label": "Cabeçalho de avaliação",
+      "default": "Avaliação"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

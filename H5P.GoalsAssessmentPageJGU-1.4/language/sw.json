@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Maelezo",
+      "description": "Maelezo ya ukurasa wa tathmini ya malengo.",
+      "default": "Kadiria malengo ambayo umechagua katika ukurasa wa malengo."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Hakuna maandishi ya malengo",
+      "description": "Maoni ya maandishi wakati hakuna malengo yaliyoundwa.",
+      "default": "Bado hujachagua malengo yoyote."
+    },
+    {
+      "label": "Lebo ya maandishi ya manufaa",
+      "description": "Lebo ya kuonyesha maelezo ya ziada ya manufaa kwa mtumiaji.",
+      "default": "Maelezo zaidi"
+    },
+    {
+      "label": "Jaza maelezo ya ziada ya manufaa",
+      "description": "Hapa unaweza kujaza maelezo ya ziada kwa manufaa ya mtumiaji."
+    },
+    {
+      "label": "Kichwa cha hadithi",
+      "default": "Ukadiriaji unaowezekana:"
+    },
+    {
+      "label": "Kichwa cha lengo",
+      "default": "Malengo"
+    },
+    {
+      "label": "Kichwa cha ukadiriaji",
+      "default": "Ukadiriaji"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

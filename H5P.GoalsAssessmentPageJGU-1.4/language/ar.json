@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "الوصف",
+      "description": "وصف صفحة تقييم الأهداف.",
+      "default": "Rate the goals that you have chosen in the goals page."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "نص لا يوجد اهداف",
+      "description": "نص رد الفعل عندما لا يتم انشاء اي هدف.",
+      "default": "You have not chosen any goals yet."
+    },
+    {
+      "label": "تسمية للنص المساعد",
+      "description": "تسمية لاظهار معلومات مفيدة إضافية للمستخدم.",
+      "default": "More information"
+    },
+    {
+      "label": "املأ المعلومات المساعدة الإضافية",
+      "description": "هنا يمكنك ملء معلومات مفيدة إضافية للمستخدم."
+    },
+    {
+      "label": "رأس وسيلة الإيضاح",
+      "default": "التصنيفات المحتملة:"
+    },
+    {
+      "label": "رأس الهدف",
+      "default": "الأهداف"
+    },
+    {
+      "label": "رأس التصنيف",
+      "default": "التصنيف"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

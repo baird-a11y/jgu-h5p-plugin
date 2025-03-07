@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "Kirjeldus",
+      "description": "Eesmärkide hindamise lehekülje kirjeldus.",
+      "default": "Hinda eesmärgid, mis valisid eesmärkide lehel."
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "Ilma eesmärkideta tekst",
+      "description": "Tagasiside tekst, kui eesmärke ei ole loodud.",
+      "default": "Sa ei ole veel ühtki eesmärki valinud."
+    },
+    {
+      "label": "Abiteksti silt",
+      "description": "Silt täiendav abistava teabe näitamiseks kasutajale.",
+      "default": "Rohkem teavet"
+    },
+    {
+      "label": "Sisesta täiendav abiteave",
+      "description": "Siin saad sisestada kasutaja jaoks täiendava abiteabe."
+    },
+    {
+      "label": "Legend header",
+      "default": "Possible ratings:"
+    },
+    {
+      "label": "Goal header",
+      "default": "Goals"
+    },
+    {
+      "label": "Rating header",
+      "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}

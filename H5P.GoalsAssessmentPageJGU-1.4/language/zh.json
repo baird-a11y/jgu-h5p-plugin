@@ -1,0 +1,80 @@
+{
+  "semantics": [
+    {
+      "label": "說明文字",
+      "description": "目標評估頁面上顯示說明。",
+      "default": "評估你為你的目標實踐的程度。"
+    },
+    {
+      "label": "Very low rating score",
+      "description": "Score for worst rating.",
+      "default": "1.0"
+    },
+    {
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
+    },
+    {
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
+      "label": "Allow to add comments to each goal"
+    },
+    {
+      "label": "無目標內容的顯示文字",
+      "description": "當沒有目標被建立時，在目標評估頁面上顯示的文字。",
+      "default": "你尚未添加任何目標。"
+    },
+    {
+      "label": "幫助按鈕的顯示文字",
+      "description": "目標評估頁面上幫助按鈕的顯示文字，若不需要有幫助或是額外資訊，可留空不填。",
+      "default": "幫助"
+    },
+    {
+      "label": "幫助說明文字",
+      "description": "用來告知用戶以協助其瞭解使用方式的說明內容。"
+    },
+    {
+      "label": "Legend header",
+      "default": "Possible ratings:"
+    },
+    {
+      "label": "Goal header",
+      "default": "Goals"
+    },
+    {
+      "label": "Rating header",
+      "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
+    }
+  ]
+}
