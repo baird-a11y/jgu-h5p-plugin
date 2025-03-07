@@ -231,3 +231,65 @@
   padding-right: 1rem;
   text-align: right;
 }
+
+/* Neuen Container für Interaktionen (Kommentare + Vergleichsfeedback) */
+.goals-assessment-view .goal-interactions-wrapper {
+  grid-column: 1 / span 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Anpassungen an bestehende Styles */
+.goals-assessment-view .goal-comments-wrapper,
+.goals-assessment-view .goal-reference-feedback-wrapper {
+  width: 100%;
+}
+
+/* Styles für das Kommentarfeld */
+.goals-assessment-view .goal-comments-label,
+.goals-assessment-view .goal-reference-feedback-label {
+  display: block;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+/* Styles für die Textareas */
+.goals-assessment-view .goal-comments,
+.goals-assessment-view .goal-reference-feedback {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  resize: none;
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+}
+
+/* Spezielles Styling für das Vergleichsfeedback */
+.goals-assessment-view .goal-reference-feedback-wrapper {
+  border-top: 1px dashed #ccc;
+  padding-top: 1rem;
+}
+
+.goals-assessment-view .goal-reference-feedback {
+  background-color: #f8f8f8;
+}
+
+/* Änderungen am Ziel-Container, um die erweiterte Struktur zu unterstützen */
+.goals-assessment-view .goal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+  border-bottom: 0.042em solid #ccc;
+  color: #333;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+}
+
+/* Stellen Sie sicher, dass Ziele mit Interaktionen die richtige Grid-Struktur haben */
+.goals-assessment-view .goal:has(.goal-interactions-wrapper) {
+  grid-template-rows: auto auto;
+}

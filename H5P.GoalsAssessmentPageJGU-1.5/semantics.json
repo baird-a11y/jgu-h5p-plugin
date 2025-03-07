@@ -71,6 +71,14 @@
     "optional": true
   },
   {
+    "name": "allowsReferenceFeedback",
+    "type": "boolean",
+    "label": "Allow to add reference feedback for each goal",
+    "description": "If enabled, authors can provide optimal feedback for each goal that can be shown as a reference solution.",
+    "default": false,
+    "optional": true
+  },
+  {
     "name": "noGoalsText",
     "label": "No goals text",
     "importance": "low",
@@ -138,6 +146,14 @@
     "default": "Comments"
   },
   {
+    "name": "referenceFeedbackHeader",
+    "label": "Reference feedback header",
+    "importance": "low",
+    "type": "text",
+    "default": "Reference feedback",
+    "optional": false
+  },
+  {
     "name": "l10n",
     "type": "group",
     "common": true,
@@ -151,6 +167,13 @@
         "description": "@score is a placeholder and will be replaced with the respective value.",
         "optional": false,
         "default": "Average score: @score"
+      },
+      {
+        "name": "referenceFeedback",
+        "type": "text",
+        "label": "Reference feedback label",
+        "optional": false,
+        "default": "Reference feedback:"
       },
       {
         "name": "dummy",

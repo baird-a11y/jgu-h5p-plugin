@@ -118,6 +118,7 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       highRating: '4.0',
       veryHighRating: '5.0',
       allowsComments: true,
+      allowsReferenceFeedback: false, // Neuer Parameter
       noGoalsText: 'You have not chosen any goals yet.',
       helpTextLabel: 'Read more',
       helpText: 'Help text',
@@ -125,8 +126,10 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       goalHeader: 'Goals',
       ratingHeader: 'Rating',
       commentsHeader: 'Comments',
+      referenceFeedbackHeader: 'Reference feedback', // Neuer Parameter
       l10n: {
-        averageScore: 'Average score: @score'
+        averageScore: 'Average score: @score',
+        referenceFeedback: 'Reference feedback:' // Neuer Parameter
       }
     }, params);
 
@@ -412,32 +415,67 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       'aria-label': `${self.params.ratingHeader}: ${self.params.veryHighRating}`,
       appendTo: $ratingContainer
     });
+      // Erstellung eines Containers für Kommentare und Vergleichsfeedback
+    const interactionsWrapper = document.createElement('div');
+    interactionsWrapper.classList.add('goal-interactions-wrapper');
+    $goal.get(0).append(interactionsWrapper);
 
-    if (this.params.allowsComments) {
-      const commentWrapper = document.createElement('div');
-      commentWrapper.classList.add('goal-comments-wrapper');
-      $goal.get(0).append(commentWrapper);
 
-      const commentsId = H5P.createUUID();
+    // Kommentare hinzufügen, wenn erlaubt
+  if (this.params.allowsComments) {
+    const commentWrapper = document.createElement('div');
+    commentWrapper.classList.add('goal-comments-wrapper');
+    interactionsWrapper.append(commentWrapper);
 
-      const label = document.createElement('label');
-      label.classList.add('goal-comments-label');
-      label.setAttribute('for', commentsId);
-      label.innerText = self.params.commentsHeader;
-      commentWrapper.append(label);
+    const commentsId = H5P.createUUID();
 
-      const comment = document.createElement('textarea');
-      comment.classList.add('goal-comments');
-      comment.setAttribute('id', commentsId);
-      comment.setAttribute('rows', '4');
-      comment.innerText = goalInstance.getComment();
-      commentWrapper.append(comment);
+    const label = document.createElement('label');
+    label.classList.add('goal-comments-label');
+    label.setAttribute('for', commentsId);
+    label.innerText = self.params.commentsHeader;
+    commentWrapper.append(label);
 
-      comment.addEventListener('input', () => {
-        goalInstance.setComment(comment.value);
-      });
-    }
+    const comment = document.createElement('textarea');
+    comment.classList.add('goal-comments');
+    comment.setAttribute('id', commentsId);
+    comment.setAttribute('rows', '4');
+    comment.value = goalInstance.getComment();
+    commentWrapper.append(comment);
 
+    comment.addEventListener('input', () => {
+      goalInstance.setComment(comment.value);
+    });
+  }
+
+  // Vergleichsfeedback hinzufügen, wenn aktiviert
+  if (this.params.allowsReferenceFeedback) {
+    const feedbackWrapper = document.createElement('div');
+    feedbackWrapper.classList.add('goal-reference-feedback-wrapper');
+    interactionsWrapper.append(feedbackWrapper);
+
+    const feedbackId = H5P.createUUID();
+
+    const feedbackLabel = document.createElement('label');
+    feedbackLabel.classList.add('goal-reference-feedback-label');
+    feedbackLabel.setAttribute('for', feedbackId);
+    feedbackLabel.innerText = self.params.referenceFeedbackHeader;
+    feedbackWrapper.append(feedbackLabel);
+
+    const feedbackTextarea = document.createElement('textarea');
+    feedbackTextarea.classList.add('goal-reference-feedback');
+    feedbackTextarea.setAttribute('id', feedbackId);
+    feedbackTextarea.setAttribute('rows', '4');
+    
+    // Wir rufen den gespeicherten Wert ab
+    feedbackTextarea.value = goalInstance.getReferenceFeedback();
+    
+    feedbackWrapper.append(feedbackTextarea);
+
+    // Event-Listener für Änderungen hinzufügen
+    feedbackTextarea.addEventListener('input', () => {
+      goalInstance.setReferenceFeedback(feedbackTextarea.value);
+    });
+  }
     // Setup buttons
     var $ratingButtons = $goal.find('[role="radio"]');
     makeRadiosAccessible($ratingButtons);
@@ -476,7 +514,8 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       goals: this.currentGoals,
       categories: this.assessmentCategories,
       l10n: {
-        averageScore: this.params.l10n.averageScore
+        averageScore: this.params.l10n.averageScore,
+        referenceFeedback: this.params.l10n.referenceFeedback // Neue Parameter
       }
     };
   };

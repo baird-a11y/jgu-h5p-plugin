@@ -10,18 +10,21 @@ H5P.GoalsPageJGU.GoalInstance = (function () {
    * Initialize module.
    * @param {String} defineGoalPlaceholder Placeholder for Goal Instance
    * @param {Number} uniqueId Unique identifier for Goal Instance.
-
    * @param {String} goalTypeDescription String describing the goal type, that will be displayed in its' footer
+   * @param {String} goalText Text content of the goal
+   * @param {Number} goalWeight Weight of the goal, default 100
+   * @param {String} referenceFeedback Reference feedback for the goal, default ''
    * @returns {Object} GoalInstance GoalInstance instance
    */
-  function GoalInstance(defineGoalPlaceholder, uniqueId, goalTypeDescription, goalText, goalWeight = 100) {
+  function GoalInstance(defineGoalPlaceholder, uniqueId, goalTypeDescription, goalText, goalWeight = 100, referenceFeedback = '') {
     this.uniqueId = uniqueId;
     this.answer = -1;
     this.textualAnswer = '';
     this.text = goalText;
     this.placeholder = defineGoalPlaceholder;
     this.goalTypeDescription = goalTypeDescription;
-    this.goalWeight = goalWeight
+    this.goalWeight = goalWeight;
+    this.referenceFeedback = referenceFeedback;
   }
 
   /**
@@ -137,6 +140,22 @@ H5P.GoalsPageJGU.GoalInstance = (function () {
   };
 
   /**
+   * Set reference feedback in goal instance.
+   * @param {string} feedback Reference feedback text.
+   */
+  GoalInstance.prototype.setReferenceFeedback = function (feedback) {
+    this.referenceFeedback = feedback;
+  }
+
+  /**
+   * Get reference feedback from goal instance.
+   * @returns {string} feedback Reference feedback text.
+   */
+  GoalInstance.prototype.getReferenceFeedback = function () {
+    return this.referenceFeedback ?? '';
+  };
+
+  /**
    * Answer call to return the current state.
    *
    * @return {object} Current state.
@@ -149,7 +168,8 @@ H5P.GoalsPageJGU.GoalInstance = (function () {
       text: this.text,
       placeholder: this.placeholder,
       goalTypeDescription: this.goalTypeDescription,
-      weight: this.goalWeight
+      weight: this.goalWeight,
+      referenceFeedback: this.getReferenceFeedback()
     };
   };
 
